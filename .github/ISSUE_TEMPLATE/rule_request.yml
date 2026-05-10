@@ -1,0 +1,20 @@
+name: Rule request
+description: Propose a new RAG data quality rule.
+title: "[Rule]: "
+labels: ["rule idea"]
+body:
+  - type: input
+    id: rule-name
+    attributes:
+      label: Rule idea
+      placeholder: "Example: detect chunks with too much overlap"
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: What risk or gap should this catch?
+      description: Explain why this matters for RAG systems.
+    validations:
+      required: true
+

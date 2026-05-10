@@ -1,0 +1,10 @@
+{
+  "scan_paths": ["docs"],
+  "eval_paths": ["evals"],
+  "min_chunk_words": 40,
+  "max_chunk_words": 120,
+  "max_document_age_days": 365,
+  "allow_sensitive_data": false,
+  "today": "2026-05-10"
+}
+

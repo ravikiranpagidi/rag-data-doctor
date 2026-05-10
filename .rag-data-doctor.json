@@ -1,0 +1,11 @@
+{
+  "scan_paths": ["examples/healthy-kb/docs"],
+  "ignore_paths": [],
+  "eval_paths": ["examples/healthy-kb/evals"],
+  "min_chunk_words": 40,
+  "max_chunk_words": 900,
+  "max_document_age_days": 365,
+  "duplicate_similarity_threshold": 0.92,
+  "min_sources": 2,
+  "allow_sensitive_data": true
+}

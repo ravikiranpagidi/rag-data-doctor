@@ -1,0 +1,9 @@
+{
+  "question": "Can I refund a delivered order older than 30 days?",
+  "expected_sources": ["support-handbook"],
+  "expected_facts": [
+    "manager approval is required",
+    "order id and payment status should be checked"
+  ]
+}
+
